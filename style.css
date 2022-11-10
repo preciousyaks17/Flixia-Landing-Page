@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto", sans-serif;
+  /* padding: 0 10% 0 10%;*/
+  margin: 0 3% 0 3%;
+  overflow-x: hidden;
+}
+.logo {
+  display: block;
+  padding: 20px;
+  border-radius: 2%;
+  width: 20%;
+}
+/*NAVIGATION SECTION*/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  padding: auto; 
+  position: relative;
+  bottom: 70px;
+  left: 60rem;
+   
+}
+.main-nav-link:link,
+.main-nav-link1:link,
+.main-nav-link2:link,
+.main-nav-link:visited,
+.main-nav-link1:visited,
+.main-nav-link2:visited {
+  display: inline-block;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #13203c;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link1:hover,
+.main-nav-link2:hover,
+.main-nav-link:active,
+.main-nav-link1:active,
+.main-nav-link2:active {
+  color: #fbbb47;
+}
+
+h1 {
+  color: #13203c;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero-container {
+  display: block;
+  text-align: left;
+  margin-bottom: 3%;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  
+  padding: 10px 15px 10px 20px;
+}
+.first-heading {
+}
+.img-container {
+}
+.img1 {
+  display: block;
+  margin: 0 auto;
+}
+/*SECOND SECTION*/
+.secton-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-container2 {
+  width: 70%;
+  padding-left: 20px;
+}
+.img2 {
+  display: block;
+  width: 50%;
+}
+.heading2 {
+  text-align: center;
+  color: #13203c;
+  position: relative;
+  bottom: 200px;
+  left: 140px;
+}
+
+/*WHAT WE OFFER SECTION*/
+.services-container {
+  display: block;
+  min-height: 47vh;
+  padding: 6px 5% 30px 5%;
+  padding-top: 40px;
+}
+.services-container > div > h3 {
+  font-size: 20px;
+  padding: 5px;
+}
+.service-heading {
+  text-align: center;
+  color: #13203c;
+  padding-top: 20px;
+}
+.column-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+  text-align: center;
+}
+.column-container > div > p {
+  font-size: 20px;
+}
+.column-container > div > h3 {
+  font-size: 28px;
+  color: #13203c;
+}
+.column-container > div > h1 {
+  margin: 10px 0 10px 0;
+  font-size: 35px;
+}
+.column-container > div > figure {
+  height: 45vh;
+  margin: 7px;
+}
+.first-column {
+}
+.second-column {
+}
+.third-column {
+}
+.icon {
+  width: 70%;
+}
+.content {
+}
+
+/*DOWNLOAD SECTION*/
+
+/*FOOTER SECTION*/
+.footer-container {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.logo2 {
+  display: block;
+  padding: 20px;
+  border-radius: 2%;
+  width: 20%;
+}
+.img-logo {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+/*
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+}
+a{
+   text-decoration: none; 
+   color: #13203c;
+   font-size: 20px;
+}
+ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   -color: #ececec;
+
+li{
+   float: left;
+   
+}
+li a{
+   display: block;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+a:hover {
+   background-color: #d09224;
+}
+.logo{
+   display: block;
+   width: 20%;
+   padding-top: 25px;
+   padding-left: 20px;
+}*/
